@@ -14,6 +14,7 @@ CREATE TABLE TourOfDuties (
   id INTEGER PRIMARY KEY,
   sailor_id INTEGER,
   ship_id INTEGER,
+  duty_name VARCHAR(20),
   start_date VARCHAR(10),
   end_date VARCHAR(10),
   rank VARCHAR(10)
